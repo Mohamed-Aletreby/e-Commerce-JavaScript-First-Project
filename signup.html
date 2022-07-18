@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/fonts/Lato/Lato-Font.css" />
+    <link rel="stylesheet" href="assets/fonts/Quicksand/Quicksand-Font.css" />
+    <title>Sign Up</title>
+  </head>
+  <body class="signup">
+    <section class="signup-section">
+      <div class="signup__content">
+        <h3 class="signup__title">Create An Account</h3>
+        <form class="signup__registration">
+          <div class="signup__name">
+            <label for="signup-name">Name</label>
+            <input type="text" id="signup-name" placeholder="3 characters above ..." />
+          </div>
+          <div class="signup__email">
+            <label for="signup-email">Email</label>
+            <input
+              type="email"
+              id="signup-email"
+              placeholder="hamada.hambozo123@hamada.com"
+            />
+          </div>
+          <div class="signup__password">
+            <label for="signup-password">Password</label>
+            <input
+              type="password"
+              id="signup-password"
+              placeholder="Enter Your Password"
+            />
+          </div>
+          <div class="signup__button">
+            <a href="#" onclick="signup(event)">sign up</a>
+          </div>
+        </form>
+        <div class="signup__text">
+          <p>Have account ? <a href="login.html">login</a></p>
+        </div>
+      </div>
+    </section>
+    <script src="js/regestration.js"></script>
+  </body>
+</html>
